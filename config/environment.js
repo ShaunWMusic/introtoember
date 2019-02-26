@@ -2,6 +2,9 @@
 
 module.exports = function(environment) {
   let ENV = {
+    DS: {
+      host: "http://introtoember-api.herokuapp.com"
+    },
     modulePrefix: 'introduction',
     environment,
     rootURL: '/',
